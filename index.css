@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(67deg, red 10%, brown 30%, darkred 60%);
+    color: whitesmoke;
+    padding: 1em;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#container{
+    overflow-y: scroll;
+}
+
+#msg {
+    padding: 1em;
+    width: 70%;
+    border: none;
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+    height: 42px;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: red;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+button:hover{
+    color: whitesmoke;
+}
+
+table{
+    border: solid 1px whitesmoke;
+    margin-top: 5em;
+    border-radius: 6px;
+    width: 98%;
+}
+
+table thead{
+    background-color: whitesmoke;
+    color: brown;
+}
+
+table tbody{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: larger;
+}
+
+table tbody tr td ul{
+    border: 0.5px whitesmoke solid;
+    padding: 0.5em;
+}
